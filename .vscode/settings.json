@@ -1,0 +1,17 @@
+{
+    "Lua.diagnostics.globals": [
+        "RegisterNUICallback",
+        "SetNuiFocus",
+        "SendNUIMessage",
+        "TriggerEvent",
+        "chat",
+        "Citizen",
+        "RegisterCommand",
+        "DisableControlAction",
+        "files",
+        "ui_page",
+        "client_script",
+        "resource_manifest_version",
+        "server_script"
+    ]
+}

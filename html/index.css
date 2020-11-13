@@ -1,0 +1,224 @@
+*{margin: 0; font-family: 'Roboto', sans-serif;}
+
+/* DIVS PRINCIPAIS */
+body {
+    background: none !important;
+    background-color: rgb(252, 252, 252);
+}
+
+#container {
+    background-color: rgb(252, 252, 252);
+    width: 1125px;
+    height: 740px;
+    top: 8vh;
+    left: 5vh;
+    margin: 0 auto;
+    position: fixed;
+    border: 4px solid rgb(220, 220, 220);
+    border-radius: 20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h3 {
+    color: rgb(107, 107, 107);
+}
+
+h3:hover {
+    color: rgb(82, 82, 82);
+}
+
+.crimesGeral {
+    float:left;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.crimesIlegalTraficoTransito {
+    float: left;
+}
+
+body {
+    margin-top: 12px;
+}
+
+h3 {
+    margin: 5px 0 5px 0;
+}
+
+#totalPena {
+    margin: 50px 0 7.5px 5px;
+    width: 135px;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+#totalMultas {
+    width: 135px;
+    margin: 7.5px 0 7.5px 5px;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+#totalFianca {
+    padding: 4px;
+    margin: 7.5px 0 7.5px 5px;
+    width: 135px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+.btnStyle {
+    float: left;
+    margin: 140px 0 0 472.5px;
+    border-radius: 4px;
+    padding: 15px 45px;
+    font-weight: bold;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(106, 13, 173);
+}
+
+.btnStyle:hover {
+    color: rgb(106, 13, 173);
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgba(106, 13, 173, 0.7);
+    cursor: pointer;
+}
+
+#close {
+    float: left;
+    margin: -90px 0 0 885px;
+    border-radius: 4px;
+    padding: 15px 45px;
+    font-weight: bold;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(106, 13, 173);
+}
+
+#close:hover {
+    color: rgb(106, 13, 173);
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgba(106, 13, 173, 0.7);
+    cursor: pointer;
+}
+
+.format01 {
+    width: 3px;
+    height: 740px;
+    background-color: rgb(31, 31, 31);
+    margin: -664px 0 0 800px;
+}
+
+.format01:hover {
+    background-color: rgb(136, 136, 136);
+}
+
+.format02 {
+    width: 150px;
+    height: 400px;
+    margin: -690px 0 0 890px;
+}
+
+.fAll {
+    margin-bottom: 180px;
+}
+
+td:hover {
+    padding: 1px 5px;
+    background-color: rgb(235, 235, 235);
+}
+
+span {
+    padding: 4px 0 6px 0;
+}
+
+span:hover {
+    background-color: rgb(234, 234, 234);
+    border-bottom: 2px solid rgb(106, 13, 173);
+}
+
+label:hover {
+    color: rgb(106, 13, 173);
+}
+
+p {
+    margin: 0 0 0 35px;
+    padding-top: 10px;
+}
+
+.format03 {
+    width: 3px;
+    height: 740px;
+    background-color: rgb(31, 31, 31);
+    margin: -450px 0 0 1110px;
+}
+
+.format03:hover {
+    background-color: rgb(136, 136, 136);
+}
+
+.inputNmbr{
+    margin-top: 20px;
+}
+
+.td01{
+    margin-left: 55px;
+}
+
+.td02{
+    margin-left: 55px;
+}
+
+.td03{
+    margin-left: 9px;
+}
+
+.td04{
+    margin-left: 27px;
+}
+
+.td05{
+    margin-left: 18px;
+}
+
+.td06{
+    margin-left: 46px;
+}
+
+.td07{
+    margin-left: 61px;
+}
+
+.td08{
+    margin-left: 67px;
+}
+
+.td09{
+    margin-left: 62px;
+}
+
+.td10{
+    margin-left: 80px;
+}
+
+table input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: rgb(106, 13, 173) 2px 3px;
+}
+
+
+
+

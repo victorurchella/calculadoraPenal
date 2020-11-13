@@ -1,0 +1,214 @@
+<html>
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container"> 
+        <div class="crimes">
+            <!-- ABA 01 -->
+            <div class="crimesGeral">
+
+                <h3>Crimes de Nivel 01.</h3>
+                    
+                <div id="listaGeral">
+            
+                    <input type="checkbox" class="crime" id="0" value="0"> <!-- nv 01. -->
+                        <label for="0"><i>Art. 329 -</i> Resistencia a prisão.</label> <br>
+            
+                    <input type="checkbox" class="crime" id="1" value="1">
+                        <label for="1"><i>Art. 301 -</i> Omissão de socorro.</label> <br>
+            
+                    <input type="checkbox" class="crime" id="2" value="2">
+                        <label for="2"><i>Art. 422 -</i> Dano ao patrimônio.</label> <br>
+            
+                    <input type="checkbox" class="crime" id="3" value="3"> 
+                        <label for="3"><i>Art. 157 -</i> Difamação.</label> <br>
+                    
+                    <input type="checkbox" class="crime" id="4" value="4"> 
+                        <label for="4"><i>Art. 500 -</i> Furto (Sem ameaça ou lesão).</label> <br>   
+                        
+                    <input type="checkbox" class="crime" id="5" value="5"> 
+                        <label for="5"><i>Art. 15 -</i> Roubo (Com ameaça ou violencia).</label> <br> <!-- s/ fianca -->
+                        
+                    <input type="checkbox" class="crime" id="6" value="6"> 
+                        <label for="6"><i>Art. 119 -</i> Perturbar a ordem pública.</label> <br> <br> 
+
+                    <h3>Crimes de Nivel 02.</h3>
+
+                    <input type="checkbox" class="crime" id="7" value="7"> <!-- nv 02. -->
+                        <label for="7"><i>Art. 19 -</i> Desacato a autoridade.</label> <br> 
+
+                    <input type="checkbox" class="crime" id="49" value="49"> <!-- nv 02. -->
+                        <label for="49"><i>Art. 98 -</i> Tentativa de fuga.</label> <br> 
+
+                    <input type="checkbox" class="crime" id="8" value="8">
+                        <label for="8"><i>Art. 254</i> - Falsa identidade.</label> <br>
+            
+                    <input type="checkbox" class="crime" id="9" value="9"> 
+                        <label for="9"><i>Art. 522</i> - Calúnia (Incriminar falsamente).</label> <br>
+            
+                    <input type="checkbox" class="crime" id="10" value="10")> 
+                        <label for="10"><i>Art. 452</i> - Extorsão (Obrigar alguém sob ameaça).</label> <br>
+            
+                    <input type="checkbox" class="crime" id="11" value="11")>
+                        <label for="11"><i>Art. 123</i> - Ato obsceno.</label> <br>
+                    
+                    <input type="checkbox" class="crime" id="12" value="12")>
+                        <label for="12"><i>Art. 744</i> - Poluição sonora.</label> <br>   
+                        
+                    <input type="checkbox" class="crime" id="13" value="13")>
+                        <label for="13"><i>Art. 585</i> - Corrupção (Ex: Suborno).</label> <br> 
+                        
+                    <input type="checkbox" class="crime" id="14" value="14")>
+                        <label for="14"><i>Art. 696</i> - Lesão corporal.</label> <br> <br>
+
+                    <h3>Crimes Hediondos.</h3>
+
+                    <input type="checkbox" class="crime" id="15" value="15")> <!-- hediondos -->
+                        <label for="15"><i>Art. 144</i> - Homicidio doloso (c/ intensão de matar).</label> <br> 
+
+                    <input type="checkbox" class="crime" id="16" value="16")> 
+                        <label for="16"><i>Art. 877</i> - Homicidio culposo (s/ intensão de matar).</label> <br>
+            
+                    <input type="checkbox" class="crime" id="17" value="17")> 
+                        <label for="17"><i>Art. 965</i> - Tentativa de homicídio</label> <br>
+            
+                    <input type="checkbox" class="crime" id="18" value="18")> 
+                        <label for="18"><i>Art. 539</i> - Latrocínio (Roubo seguido de morte).</label> <br>
+            
+                    <input type="checkbox" class="crime" id="19" value="19")>
+                        <label for="19"><i>Art. 741</i> - Homicidio.</label> <br>
+                    
+                    <input type="checkbox" class="crime" id="20" value="20")>
+                        <label for="20"><i>Art. 852</i> - Chacina (Homicídio a mais de 4 pessoas).</label> <br>   
+                        
+                    <input type="checkbox" class="crime" id="21" value="21")>
+                        <label for="21"><i>Art. 963</i> - Sequestro.</label> <br> <br>
+
+                    <h3>Art. 222 - Transgressões.</h3>
+                        
+                    <input type="checkbox" class="crime" id="22" value="22")>
+                        <label for="22"><i>Art. 222</i> - Uso de colete balístico.</label> <br>  
+
+                    <input type="checkbox" class="crime" id="23" value="23")> 
+                        <label for="23"><i>Art. 222</i> - Uso de mascara.</label> <br> 
+                    
+                    <input type="checkbox" class="crime" id="24" value="24")> 
+                        <label for="24"><i>Art. 222</i> - Uso de capacete balístico.</label> <br>
+            
+                    <input type="checkbox" class="crime" id="25" value="25")> 
+                        <label for="25"><i>Art. 222</i> - Uso de farda.</label> <br>
+            
+                    <input type="checkbox" class="crime" id="26" value="26")>
+                        <label for="26"><i>Art. 222</i> - Multas acumuladas (acima de 10k).</label> <br>
+            
+                </div>
+            </div>
+            
+            <div class=".crimesIlegalTraficoTransito">
+                <!-- ABA 02 -->
+                <div class="crimesIlegal">
+
+                    <h3>Porte ilegal de armas.</h3>
+                    
+                    <div id="listaPorteIlegal"> 
+
+                        <input type="checkbox" class="crime" id="27" value="27")>
+                            <label for="27"><i>Art. 855</i> - Pistola (Baixo calibre).</label> <br>
+
+                        <input type="checkbox" class="crime" id="28" value="28")>
+                            <label for="28"><i>Art. 855</i> - Submetralhadora.</label> <br>
+
+                        <input type="checkbox" class="crime" id="29" value="29")>
+                            <label for="29"><i>Art. 855</i> - Fuzil Automático.</label> <br>
+
+                        <input type="checkbox" class="crime" id="30" value="30")>
+                            <label for="30"><i>Art. 855</i> - Espingarda.</label> <br>
+
+                        <input type="checkbox" class="crime" id="31" value="31")>
+                            <label for="31"><i>Art. 855</i> - Arremessaveis.</label> <br>
+
+                    </div>
+                </div>
+
+                <!-- ABA 03 -->
+                <div class="crimesTransito">
+
+                    <h3>Assaltos a loja e bancos.</h3>
+                        
+                    <div id="listaTransito">
+                
+                        <input type="checkbox" class="crime" id="32" value="32")>
+                            <label for="32"><i>Art. 158</i> - Formação de quadrilha.</label> <br>
+                
+                        <input type="checkbox" class="crime" id="33" value="33")>
+                            <label for="33"><i>Art. 157</i> - Furto de caixa registradora.</label> <br>
+                
+                        <input type="checkbox" class="crime" id="34" value="34")>
+                            <label for="34"><i>Art. 157</i> - Furto de caixa eletrônica.</label> <br>
+                
+                        <input type="checkbox" class="crime" id="35" value="35")>
+                            <label for="35"><i>Art. 157</i> - Assalto a banco.</label> <br>
+
+                        <input type="checkbox" class="crime" id="36" value="36")>
+                            <label for="36"><i>Art. 157</i> - Assalto a joalheria.</label> <br>
+
+                        <input type="checkbox" class="crime" id="37" value="37")>
+                            <label for="37"><i>Art. 157</i> - Assalto a loja de armamentos.</label> <br>
+
+                        <input type="checkbox" class="crime" id="38" value="38")>
+                            <label for="38"><i>Art. 157</i> - Assalto a loja de departamento.</label> <br>
+                
+                    </div>
+                </div>
+
+                <table>
+                    <tr><td><span>Cocaína &nbsp;</span><input type="number" class="td01" id="39"></input></td></tr>
+                    <tr><td><span>Maconha</span><input type="number" class="td02" id="40"></input></td></tr>
+                    <tr><td><span>Metanfetamina&nbsp;</span><input type="number" class="td03" id="41"></input></td></tr>
+                    <tr><td><span>Dinheiro Sujo</span><input type="number" class="td04" id="42"></input></td></tr>
+                    <tr><td><span>Peças de arma</span><input type="number" class="td05" id="43"></input></td></tr>
+                    <tr><td><span>Masterpick</span><input type="number" class="td06" id="44"></input></td></tr>
+                    <tr><td><span>Lockpick</span><input type="number" class="td07" id="45"></input></td></tr>
+                    <tr><td><span>Pen-Drive</span><input type="number" class="td08" id="46"></input></td></tr>
+                    <tr><td><span>Algemas</span><input type="number" class="td09" id="47"></input></td></tr>
+                    <tr><td><span>Capuz</span><input type="number" class="td10" id="48"></input></td></tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="format01">.</div>
+
+        <div class="format02">
+            <div class="fAll">
+                <span>TEMPO DE PRISAO</span> 
+                <p id="exibirPena">0 Meses</p>
+            </div>
+
+            <div class="fAll">
+                <span>TOTAL EM MULTAS</span> 
+                <p id="exibirMulta">R$0,00</p>
+            </div>
+
+            <div class="fAll">
+                <span>TOTAL DA FIANÇA</span> 
+                <p id="exibirFianca">R$0,00</p>
+            </div>
+        </div>
+
+        <input class="btnStyle" type="button" value="Calcular" onClick="somar()">
+
+        <div class="format03">.</div>
+
+        <button id="close">Fechar</button>    
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
